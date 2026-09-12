@@ -1,0 +1,9 @@
+subgroup,n,positives,negatives,prevalence,evaluated,reason
+male,5547,461,5086,0.0831079862989003,True,eligible
+female,4791,280,4511,0.05844291379670215,True,eligible
+age_under18,3,0,3,0.0,False,predefined n/class-count display threshold not met
+age18_64,5660,210,5450,0.037102473498233215,True,eligible
+age65plus,4598,528,4070,0.11483253588516747,True,eligible
+age_unknown,77,3,74,0.03896103896103896,False,predefined n/class-count display threshold not met
+conduction_present,2073,203,1870,0.09792571152918475,True,eligible
+conduction_absent,8265,538,7727,0.06509376890502118,True,eligible

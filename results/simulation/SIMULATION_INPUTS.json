@@ -1,0 +1,22 @@
+{
+  "sigma_gain": 0.01309220001610004,
+  "sigma_test": 0.009124715211419838,
+  "M": 20000,
+  "M_bootstrap": 5000,
+  "B": 999,
+  "Delta": 0.007,
+  "seed": 2024,
+  "bit_generator": "PCG64",
+  "quantile_method": "linear",
+  "alpha": 0.05,
+  "sigma_enc": 0.00938857143403901,
+  "scales_derivation": "sample SD of ten Configuration-2 AUC gains; seed-42 record bootstrap SD, B=2000 RandomState(0); encoder scale is exploratory sqrt(sigma_gain^2-sigma_test^2), not an identified component",
+  "stream_order": "Gaussian then skew: naive coverage/null; t K5 coverage/null; t K10 coverage/null; percentile coverage/null each draw then indices; studentized likewise; sign coverage/null; then Gaussian powers and noisy K80 searches. Analytic-median summaries consume no RNG.",
+  "generator_version": "regenerate_simulations.py 2026-09-07",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.4",
+    "scipy": "1.16.3"
+  },
+  "original_producing_run_authenticated": false
+}

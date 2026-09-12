@@ -1,0 +1,302 @@
+[
+  {
+    "seed": 77,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_initial/runs/seed77_none"
+  },
+  {
+    "seed": 77,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed77_symmetric"
+  },
+  {
+    "seed": 77,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed77_anchored"
+  },
+  {
+    "seed": 78,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_initial/runs/seed78_none"
+  },
+  {
+    "seed": 78,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed78_symmetric"
+  },
+  {
+    "seed": 78,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed78_anchored"
+  },
+  {
+    "seed": 79,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_initial/runs/seed79_none"
+  },
+  {
+    "seed": 79,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed79_symmetric"
+  },
+  {
+    "seed": 79,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed79_anchored"
+  },
+  {
+    "seed": 80,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_initial/runs/seed80_none"
+  },
+  {
+    "seed": 80,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed80_symmetric"
+  },
+  {
+    "seed": 80,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed80_anchored"
+  },
+  {
+    "seed": 81,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_initial/runs/seed81_none"
+  },
+  {
+    "seed": 81,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed81_symmetric"
+  },
+  {
+    "seed": 81,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_initial/runs/seed81_anchored"
+  },
+  {
+    "seed": 82,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_added/runs/seed82_none"
+  },
+  {
+    "seed": 82,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed82_symmetric"
+  },
+  {
+    "seed": 82,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed82_anchored"
+  },
+  {
+    "seed": 83,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_added/runs/seed83_none"
+  },
+  {
+    "seed": 83,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed83_symmetric"
+  },
+  {
+    "seed": 83,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed83_anchored"
+  },
+  {
+    "seed": 84,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_added/runs/seed84_none"
+  },
+  {
+    "seed": 84,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed84_symmetric"
+  },
+  {
+    "seed": 84,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed84_anchored"
+  },
+  {
+    "seed": 85,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_added/runs/seed85_none"
+  },
+  {
+    "seed": 85,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed85_symmetric"
+  },
+  {
+    "seed": 85,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed85_anchored"
+  },
+  {
+    "seed": 86,
+    "arm": "none",
+    "dose": 0,
+    "directory": "../outputs/routing_added/runs/seed86_none"
+  },
+  {
+    "seed": 86,
+    "arm": "symmetric",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed86_symmetric"
+  },
+  {
+    "seed": 86,
+    "arm": "anchored",
+    "dose": 0.1,
+    "directory": "../outputs/routing_added/runs/seed86_anchored"
+  },
+  {
+    "seed": 77,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed77_symmetric"
+  },
+  {
+    "seed": 77,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed77_anchored"
+  },
+  {
+    "seed": 78,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed78_symmetric"
+  },
+  {
+    "seed": 78,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed78_anchored"
+  },
+  {
+    "seed": 79,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed79_symmetric"
+  },
+  {
+    "seed": 79,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed79_anchored"
+  },
+  {
+    "seed": 80,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed80_symmetric"
+  },
+  {
+    "seed": 80,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed80_anchored"
+  },
+  {
+    "seed": 81,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed81_symmetric"
+  },
+  {
+    "seed": 81,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed81_anchored"
+  },
+  {
+    "seed": 82,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed82_symmetric"
+  },
+  {
+    "seed": 82,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed82_anchored"
+  },
+  {
+    "seed": 83,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed83_symmetric"
+  },
+  {
+    "seed": 83,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed83_anchored"
+  },
+  {
+    "seed": 84,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed84_symmetric"
+  },
+  {
+    "seed": 84,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed84_anchored"
+  },
+  {
+    "seed": 85,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed85_symmetric"
+  },
+  {
+    "seed": 85,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed85_anchored"
+  },
+  {
+    "seed": 86,
+    "arm": "symmetric",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed86_symmetric"
+  },
+  {
+    "seed": 86,
+    "arm": "anchored",
+    "dose": 0.3,
+    "directory": "../outputs/routing_dose03/runs/seed86_anchored"
+  }
+]

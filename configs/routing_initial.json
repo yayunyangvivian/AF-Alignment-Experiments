@@ -1,0 +1,43 @@
+{
+  "recorded_utc": "2026-09-10T16:51:53.141081+00:00",
+  "question": "Does detaching the PTB branch only in the alignment discrepancy improve v2b compared with original symmetric alignment and no alignment?",
+  "seeds": [
+    77,
+    78,
+    79,
+    80,
+    81
+  ],
+  "seed_triples": 5,
+  "encoder_fits": 15,
+  "epochs": 30,
+  "arms": [
+    "none",
+    "symmetric",
+    "anchored"
+  ],
+  "alignment_weight_by_arm": {
+    "none": 0.0,
+    "symmetric": 0.1,
+    "anchored": 0.1
+  },
+  "primary": "AUC anchored minus original symmetric alignment",
+  "contrasts": [
+    "anchored_vs_original",
+    "anchored_vs_none"
+  ],
+  "endpoints": [
+    "AUC",
+    "AP",
+    "Brier",
+    "calibrated_Brier"
+  ],
+  "change": "PTB representation detached only in the alignment term; AF task/regularization and EF task gradients untouched; architecture unchanged",
+  "caveat": "Shared encoder updates through Echo can still affect PTB; no AF-risk preservation or predictive-map guarantee",
+  "selection": "Maximum validation downstream-probe AUC, earliest ties, common to all arms",
+  "training": "Same initial weights, PTB/Echo schedules,30epochs510updates, optimizer/loss weights/PTB-only regularization and stochastic draw consumption",
+  "test": "All15 checkpoints selected before new test scoring; same previously inspected benchmark, retrospective development",
+  "stopping": "Fixed five triples, two contrasts, all four endpoints; no outcome-dependent extension or additional variant",
+  "budget_seconds": 7200,
+  "inference": "Nominal paired t4 fixed-benchmark means; Gaussian exactness only under iid Gaussian gains; no selection/multiplicity adjustment, population coverage, clinical importance or equivalence claim"
+}

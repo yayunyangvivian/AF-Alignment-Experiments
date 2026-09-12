@@ -1,0 +1,45 @@
+{
+  "recorded_utc": "2026-09-10T18:51:14.076709+00:00",
+  "question": "Fixed additional seeds plus one MMD deletion; Georgia stays evaluation-only",
+  "seeds": [
+    82,
+    83,
+    84,
+    85,
+    86
+  ],
+  "encoder_fits": 20,
+  "epochs": 30,
+  "arms": [
+    "none",
+    "symmetric",
+    "anchored",
+    "anchored_no_mmd"
+  ],
+  "alignment_weight_by_arm": {
+    "none": 0.0,
+    "symmetric": 0.1,
+    "anchored": 0.1,
+    "anchored_no_mmd": 0.1
+  },
+  "primary": "exploratory extension; unchanged endpoint definitions",
+  "contrasts": [
+    "anchored_vs_original",
+    "anchored_vs_none"
+  ],
+  "endpoints": [
+    "AUC",
+    "AP",
+    "Brier",
+    "calibrated_Brier"
+  ],
+  "change": "Main3 procedures unchanged; fourth anchored_no_mmd arm zeroes only MMD objective while preserving its forward RNG draws",
+  "caveat": "Shared encoder updates through Echo can still affect PTB; no AF-risk preservation or predictive-map guarantee",
+  "selection": "Maximum validation downstream-probe AUC, earliest ties, common to all arms",
+  "training": "Same initial weights, PTB/Echo schedules,30epochs510updates, optimizer/loss weights/PTB-only regularization and stochastic draw consumption",
+  "test": "All20 checkpoints selected on PTB validation before new Georgia scoring; Georgia already inspected in prior experiment",
+  "stopping": "Fixed five new seeds and20 fits; no outcome-dependent extension",
+  "budget_seconds": 5400,
+  "inference": "Nominal paired t4 fixed-benchmark means; Gaussian exactness only under iid Gaussian gains; no selection/multiplicity adjustment, population coverage, clinical importance or equivalence claim",
+  "seed_quadruples": 5
+}

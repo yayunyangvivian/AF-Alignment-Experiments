@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61
+  ],
+  "epochs": 30,
+  "arms": [
+    "ptb_only",
+    "ptb_ef",
+    "ptb_ef_alignment"
+  ],
+  "selection": "maximum validation AF head AUC; earliest epoch on ties"
+}

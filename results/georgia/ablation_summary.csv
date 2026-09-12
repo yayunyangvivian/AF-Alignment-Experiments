@@ -1,0 +1,5 @@
+endpoint,contrast,K,mean,median,sd,lower,upper,candidate_favored,reference_favored,ties,interval
+AUC,no_MMD-minus-full_anchored,5,-0.006720104981074715,-0.007351600119076762,0.013097403625958098,-0.022982679533370323,0.009542469571220891,1,4,0,nominal paired t mean reference; fixed records; unadjusted; median descriptive
+AP,no_MMD-minus-full_anchored,5,-0.0016286060543276803,-0.002525287501709994,0.008112918529548393,-0.011702124912828142,0.008444912804172781,2,3,0,nominal paired t mean reference; fixed records; unadjusted; median descriptive
+Brier,no_MMD-minus-full_anchored,5,-0.0063547162574551065,-0.0037966673327873013,0.008256355503131243,-0.016606335642064696,0.0038969031271544824,4,1,0,nominal paired t mean reference; fixed records; unadjusted; median descriptive
+calibrated_Brier,no_MMD-minus-full_anchored,5,0.0005700501403311436,0.0010237676473972002,0.001022149846805965,-0.0006991165252173158,0.001839216805879603,1,4,0,nominal paired t mean reference; fixed records; unadjusted; median descriptive

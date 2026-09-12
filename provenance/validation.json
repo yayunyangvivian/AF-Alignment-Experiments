@@ -1,0 +1,172 @@
+{
+  "checks": [
+    {
+      "check": "scripts/verify_export.py",
+      "mode": "synthetic and retained arithmetic",
+      "passed": true
+    },
+    {
+      "check": "experiments/evaluate_frozen.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/extract_echo.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/prepare_georgia.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_added.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_dose03.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_initial.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_three_arm.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/fixed_benchmark_simulation.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/two_component_simulation.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/historical_calibration_ablation.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/paired_results.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/representation_diagnostics.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/p1_refit.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/p1_score_refit.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/component_probe_diagnostic.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "analysis/rank_performance_check.py",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "preprocessing module imports",
+      "mode": "help/import",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_initial.py",
+      "mode": "preflight",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_added.py",
+      "mode": "preflight",
+      "passed": true
+    },
+    {
+      "check": "experiments/train_routing_dose03.py",
+      "mode": "preflight",
+      "passed": true
+    }
+  ],
+  "regenerated_tables_match": [
+    {
+      "table": "subgroup_seed_effects",
+      "rows": 120
+    },
+    {
+      "table": "subgroup_interaction_summary",
+      "rows": 36
+    },
+    {
+      "table": "stress_clean_absolute_degradation",
+      "rows": 1080
+    },
+    {
+      "table": "stress_contrast_summary",
+      "rows": 384
+    },
+    {
+      "table": "stress_seed_contrasts",
+      "rows": 3840
+    },
+    {
+      "table": "clean_degradation_correlations",
+      "rows": 96
+    },
+    {
+      "table": "mechanism_clean_per_seed",
+      "rows": 50
+    },
+    {
+      "table": "mechanism_paired_summary",
+      "rows": 66
+    },
+    {
+      "table": "mechanism_paired_seed_effects",
+      "rows": 660
+    },
+    {
+      "table": "movement_stress_paired_summary",
+      "rows": 576
+    },
+    {
+      "table": "mechanism_correlations",
+      "rows": 436
+    },
+    {
+      "table": "dose03_minus_dose01_summary",
+      "rows": 20
+    },
+    {
+      "table": "dose_absolute_stress_summary",
+      "rows": 180
+    }
+  ],
+  "training_loop_AST_identical": [
+    "train_three_arm.py",
+    "train_routing_initial.py",
+    "train_routing_added.py",
+    "train_routing_dose03.py"
+  ],
+  "new_training_run": false,
+  "new_inferential_experiment": false,
+  "checks_scope": "retained arithmetic, same-summary regeneration, portable CLI/import checks and synthetic numerical checks; no full data replay"
+}

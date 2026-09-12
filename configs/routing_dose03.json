@@ -1,0 +1,55 @@
+{
+  "recorded_utc": "2026-09-10T21:18:57.292458+00:00",
+  "question": "Coarse stronger-dose mechanism challenge, not tuning",
+  "seeds": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86
+  ],
+  "seed_triples": null,
+  "encoder_fits": 20,
+  "epochs": 30,
+  "arms": [
+    "symmetric",
+    "anchored"
+  ],
+  "alignment_weight_by_arm": {
+    "symmetric": 0.3,
+    "anchored": 0.3
+  },
+  "primary": "AUC anchored minus original symmetric alignment",
+  "contrasts": [
+    "anchored_vs_original"
+  ],
+  "endpoints": [
+    "AUC",
+    "AP",
+    "Brier",
+    "calibrated_Brier"
+  ],
+  "change": "PTB representation detached only in the alignment term; AF task/regularization and EF task gradients untouched; architecture unchanged",
+  "caveat": "Shared encoder updates through Echo can still affect PTB; no AF-risk preservation or predictive-map guarantee",
+  "selection": "Maximum validation downstream-probe AUC, earliest ties, common to all arms",
+  "training": "Same initial weights, PTB/Echo schedules,30epochs510updates, optimizer/loss weights/PTB-only regularization and stochastic draw consumption",
+  "test": "All20 selected before Georgia scoring; existing PTB and Georgia history makes analysis exploratory",
+  "stopping": "Fixed10pairs,60minute cap,no outcome extension",
+  "budget_seconds": 3600,
+  "inference": "Nominalt9 conditional mean; exploratory",
+  "seed_pairs": 10,
+  "dose_grid": [
+    0,
+    0.1,
+    0.3
+  ],
+  "reused_doses": [
+    0,
+    0.1
+  ]
+}

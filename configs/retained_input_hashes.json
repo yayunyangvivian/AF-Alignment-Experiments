@@ -1,0 +1,12 @@
+{
+  "ptb/emb_ecg.npy": "870ebc8b32e7090ebd932fdecb747c05b36e612e622891b21ba129af317e41cb",
+  "ptb/tab.npy": "f8313de8ee3de5e2de7394bc65756d00b9c28a1f9979387da1e2ce72dd9dcc1c",
+  "ptb/y_af.npy": "053e41901990884089d9318c6ba966cd601966ded6681cb5367b2ac32e695009",
+  "ptb/ids_train.txt": "f46d23074bde8344f717c49feaa68f6de059963f91fbf216dd6cf0544081ecad",
+  "ptb/ids_val.txt": "70531f57c3b8869ceeeb4912b9e1f385e59c826a6103017668a481c7ed3eb8aa",
+  "ptb/ids_test.txt": "70352ea7caf95c04cea61e66e927bbdd9f6be9a3e8851139327432832c8005eb",
+  "ptb/test_patient_ids.npy": "8b712e72586f337e8b407b31a24529fbbf23d0b3aa4d7d0c3f70690fca43eb6a",
+  "echo/emb_echo.npy": "37ac1d2ab9764a0a07b9abace77b4205803ca518b0e1236ace0cd29b7ff6fcac",
+  "echo/y_ef.npy": "8d0935e723a4abce030e11d027cd026a0466f15de2be264a70088610e5059c71",
+  "echo/ids_echo_train.txt": "0a6fb6d951a63e89adcf71d89a4dc6c3d4331c076444afb8ef70b77ac2801aeb"
+}

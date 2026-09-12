@@ -1,0 +1,3 @@
+destination,method,brier_full_precision,brier_3dp,provenance
+tab:main row D,fusion,0.092572391033172607,0.093,new_refit_same_saved_prediction
+tab:calib fusion,fusion,0.092572391033172607,0.093,new_refit_same_saved_prediction

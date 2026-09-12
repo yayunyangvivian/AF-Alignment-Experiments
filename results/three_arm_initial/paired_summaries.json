@@ -1,0 +1,210 @@
+[
+  {
+    "contrast": "EF_added",
+    "endpoint": "AUC",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      0.011453109347547175,
+      0.02586467854835728,
+      -0.0020908946220318247,
+      0.0176477747575966,
+      -0.006784484937756963
+    ],
+    "mean": 0.009218036618742454,
+    "sd": 0.013575155106851432,
+    "nominal_t_interval": [
+      -0.007637744747466943,
+      0.02607381798495185
+    ],
+    "p_t": 0.20353398624605948,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "EF_added",
+    "endpoint": "AP",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      0.002754665891064101,
+      0.05662351722903791,
+      0.0366371560227815,
+      0.00962779430459354,
+      -0.009728023716829404
+    ],
+    "mean": 0.01918302194612953,
+    "sd": 0.026941971451039468,
+    "nominal_t_interval": [
+      -0.014269854045259801,
+      0.05263589793751886
+    ],
+    "p_t": 0.18657579111322606,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "EF_added",
+    "endpoint": "Brier",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      0.006277139746233978,
+      -0.0052918353675198565,
+      -0.0032883163539391275,
+      0.0010234439456630329,
+      -0.0146232644062875
+    ],
+    "mean": -0.003180566487169895,
+    "sd": 0.007786628167952993,
+    "nominal_t_interval": [
+      -0.012848942350716458,
+      0.006487809376376669
+    ],
+    "p_t": 0.41272778667651544,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "EF_added",
+    "endpoint": "calibrated_Brier",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      -0.0005361877207959581,
+      -0.0010806813834637607,
+      -0.0015691301788365725,
+      0.0015036324754103964,
+      0.00025775403694319743
+    ],
+    "mean": -0.0002849225541485395,
+    "sd": 0.0012081993314422377,
+    "nominal_t_interval": [
+      -0.0017851001666542232,
+      0.0012152550583571441
+    ],
+    "p_t": 0.625865315768808,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "alignment_added",
+    "endpoint": "AUC",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      -0.028064799008853503,
+      -0.009206177813423477,
+      0.004281652867802466,
+      0.007417994800850147,
+      0.005202270649144913
+    ],
+    "mean": -0.004073811700895891,
+    "sd": 0.014915007228632923,
+    "nominal_t_interval": [
+      -0.022593239209638287,
+      0.014445615807846507
+    ],
+    "p_t": 0.5743662402061155,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "alignment_added",
+    "endpoint": "AP",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      -0.033915464508756266,
+      -0.021246723229219278,
+      -0.02249612521598965,
+      0.04084482531469258,
+      0.025461692812249692
+    ],
+    "mean": -0.002270358965404584,
+    "sd": 0.033160905209491005,
+    "nominal_t_interval": [
+      -0.043445061111877216,
+      0.03890434318106805
+    ],
+    "p_t": 0.8857380327249202,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "alignment_added",
+    "endpoint": "Brier",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      -0.0023716945771071613,
+      0.007120496530188494,
+      0.006145683889733258,
+      0.0012340612648025079,
+      0.007969206204165274
+    ],
+    "mean": 0.0040195506623564746,
+    "sd": 0.004425580571223769,
+    "nominal_t_interval": [
+      -0.0014755334040821282,
+      0.009514634728795077
+    ],
+    "p_t": 0.11209561506509474,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  },
+  {
+    "contrast": "alignment_added",
+    "endpoint": "calibrated_Brier",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "gains": [
+      0.0016838454968742256,
+      0.0005472140758484151,
+      -0.00033387362445756047,
+      -0.0020018445506135366,
+      -0.001580194640592253
+    ],
+    "mean": -0.0003369706485881419,
+    "sd": 0.0015151650996002629,
+    "nominal_t_interval": [
+      -0.0022182966040966085,
+      0.001544355306920325
+    ],
+    "p_t": 0.6450725493297234,
+    "target": "fixed benchmark procedure mean; unadjusted retrospective comparison; exact t only under iid Gaussian gains"
+  }
+]
